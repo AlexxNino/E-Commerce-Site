@@ -2,35 +2,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="MainPageCss.scss">
-  <link rel="stylesheet" href="MainPageCss.css">
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="MainPageCss.css">
+  <title>Store Home Page</title>
 </head>
 <body>
   
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">Categories</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li style="float:right"><a href="#about">About</a></li>
+  </ul>
+
+
+
   <section class="container">
     <div class="left-half">
     <article>
       <h1>Left Column</h1>
-      <p>This is some example text. Stuff...</p>
+      <p>This is some example text. Left side Stuff...iabdsivbalidvbalisdbvlaikb</p>
     </article>
   </div> 
+
+
+
     <div class = "right-half"> 
-      <div class="collection">
-        <div class="product">
-          <a class="product__image" href="#"></a>
-          <div class="product__name">
-            <p>
-              <a href="#">Product Name</a>
-            </p>
-          </div>
-          <div class="product__price">
-            <p>$10.00  
-          </div>
+      
+      <div class="grid-container">
+        <div class="card">
+          <img src="GreyBox.jpg" alt="Example Box" style="width:100%">
+          <h3 class="ItemTitle">Example Item</h3>
+          <p class="price">$19.99</p>
+          <p class="desc">Some text about the item..</p>
+          <p><button>Add to Cart</button></p>
         </div>
+
+      </div>
+
       </div>
     </div>
   </section>
