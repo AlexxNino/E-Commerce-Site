@@ -1,0 +1,17 @@
+.container {
+    display: table;
+    width: 100%;
+  }
+  .left-half {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0px;
+    width: 20%;
+  }
+  
+  .right-half {
+    background-color: #ffffff;
+    position: absolute;
+    right: 0px;
+    width: 80%;
+  }
